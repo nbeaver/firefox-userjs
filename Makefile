@@ -4,7 +4,7 @@
 USER_JS:=user.js
 
 edit :
-	vim -p user.js config-keys.txt
+	vim -p $(USER_JS) config-keys.txt
 
 install :
 	cp -- $(USER_JS) $(FIREFOX_PROFILE_DIR)
