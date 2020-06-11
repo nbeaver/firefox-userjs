@@ -1,0 +1,36 @@
+# Comments and blank lines are allowed.
+# This overrides ~/.stow-global-ignore,
+# so it should include all the patterns there.
+
+readme\..*
+Makefile
+relevant-links/
+config-keys.txt
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# Vim swap files.
+.*\.sw.      # vim swap files, e.g. .swp or .swo
+# Temp files.
+.*\.+~
+
+.+~          # emacs backup files
+\#.*\#       # emacs autosave files
+
+
+# Version control files.
+RCS
+.+,v
+
+CVS
+\.\#.+       # CVS conflict files / emacs lock files
+\.cvsignore
+
+\.svn
+_darcs
+\.hg
+
+\.git
+\.gitignore
