@@ -84,3 +84,18 @@ user_pref("network.cookie.lifetimePolicy", 2);
 // I don't mind re-logging into things on startup.
 // http://kb.mozillazine.org/Network.cookie.lifetimePolicy
 // https://developer.mozilla.org/en-US/docs/Mozilla/Cookies_Preferences
+
+// Don't ask to remember passwords.
+user_pref("signon.rememberSignons", false);
+// Rationale: better to use an external password manager.
+
+// Wrap long lines when viewing HTML source of page.
+user_pref("view_source.wrap_long_lines", true);
+// Rationale: horizontal scrolling is fiddly and annoying.
+// http://kb.mozillazine.org/View_source.wrap_long_lines
+
+// Block domains of known trackers.
+user_pref("privacy.trackingprotection.enabled", true)
+// Rationale: better privacy and makes pages load faster as a bonus.
+// https://wiki.mozilla.org/Security/Tracking_protection
+// https://lifehacker.com/turn-on-tracking-protection-in-firefox-to-make-pages-lo-1706946166
