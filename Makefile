@@ -3,11 +3,11 @@
 # END CHANGEME
 USER_JS:=user.js
 
+lint :
+	gjslint --nojsdoc --disable 131,0110 --quiet $(USER_JS)
+
 edit :
 	vim -p $(USER_JS) config-keys.txt
 
 install :
 	cp -- $(USER_JS) $(FIREFOX_PROFILE_DIR)
-
-lint :
-	gjslint --nojsdoc --disable 131,0110 --quiet $(USER_JS)
