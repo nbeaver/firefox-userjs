@@ -17,3 +17,9 @@
 - [ ] Set this?
 
     ui.key.menuAccessKeyFocuses	false	
+
+- [x] Don't set these, they don't work anymore.
+
+    browser.search.defaulturl
+    browser.search.defaultenginename = DuckDuckGo
+    browser.search.order.1 = DuckDuckGo
