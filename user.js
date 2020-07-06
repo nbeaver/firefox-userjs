@@ -99,3 +99,9 @@ user_pref("privacy.trackingprotection.enabled", true);
 // Rationale: better privacy and makes pages load faster as a bonus.
 // https://wiki.mozilla.org/Security/Tracking_protection
 // https://lifehacker.com/turn-on-tracking-protection-in-firefox-to-make-pages-lo-1706946166
+
+// Turn off built-in PDF reader.
+user_pref("pdfjs.enabled", false);
+// Can also be done graphically:
+// https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer
+// Rationale: can't see font information.
