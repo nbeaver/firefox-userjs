@@ -77,6 +77,7 @@ user_pref("network.IDN_show_punycode", true);
 // Rationale: prevents homograph attacks.
 // https://www.mozilla.org/en-US/security/advisories/mfsa2005-29/
 // https://bugzilla.mozilla.org/show_bug.cgi?id=282270
+// https://www.wordfence.com/blog/2017/04/chrome-firefox-unicode-phishing/
 
 // Delete cookies when browser closes.
 user_pref("network.cookie.lifetimePolicy", 2);
@@ -105,3 +106,7 @@ user_pref("pdfjs.enabled", false);
 // Can also be done graphically:
 // https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer
 // Rationale: can't see font information.
+
+// Turn off Encrypted Media Extensions (DRM).
+user_pref("browser.eme.ui.enabled", false);
+// Rationale: don't need it, can always enable it manually.
