@@ -116,3 +116,5 @@ user_pref("dom.disable_window_open_feature.toolbar", true);
 // Rationale: it's useful to be able to use addons on windows.
 // https://support.mozilla.org/en-US/questions/1286994
 // https://support.mozilla.org/en-US/questions/1206512
+// Disclaimer: does not work anymore after Firefox 76.0.
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1658775
