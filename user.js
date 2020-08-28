@@ -110,3 +110,9 @@ user_pref("pdfjs.enabled", false);
 // Turn off Encrypted Media Extensions (DRM).
 user_pref("browser.eme.ui.enabled", false);
 // Rationale: don't need it, can always enable it manually.
+
+// Prevent new windows from hiding the toolbar.
+user_pref("dom.disable_window_open_feature.toolbar", true);
+// Rationale: it's useful to be able to use addons on windows.
+// https://support.mozilla.org/en-US/questions/1286994
+// https://support.mozilla.org/en-US/questions/1206512
