@@ -101,12 +101,6 @@ user_pref("privacy.trackingprotection.enabled", true);
 // https://wiki.mozilla.org/Security/Tracking_protection
 // https://lifehacker.com/turn-on-tracking-protection-in-firefox-to-make-pages-lo-1706946166
 
-// Turn off built-in PDF reader.
-user_pref("pdfjs.enabled", false);
-// Can also be done graphically:
-// https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer
-// Rationale: can't see font information.
-
 // Turn off Encrypted Media Extensions (DRM).
 user_pref("browser.eme.ui.enabled", false);
 // Rationale: don't need it, can always enable it manually.
