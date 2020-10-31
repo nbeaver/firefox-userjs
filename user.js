@@ -79,13 +79,6 @@ user_pref("network.IDN_show_punycode", true);
 // https://bugzilla.mozilla.org/show_bug.cgi?id=282270
 // https://www.wordfence.com/blog/2017/04/chrome-firefox-unicode-phishing/
 
-// Delete cookies when browser closes.
-user_pref("network.cookie.lifetimePolicy", 2);
-// Rationale: good balance between privacy and convenience.
-// I don't mind re-logging into things on startup.
-// http://kb.mozillazine.org/Network.cookie.lifetimePolicy
-// https://developer.mozilla.org/en-US/docs/Mozilla/Cookies_Preferences
-
 // Don't ask to remember passwords.
 user_pref("signon.rememberSignons", false);
 // Rationale: better to use an external password manager.
