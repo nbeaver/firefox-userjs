@@ -105,3 +105,16 @@ user_pref("dom.disable_window_open_feature.toolbar", true);
 // https://support.mozilla.org/en-US/questions/1206512
 // Disclaimer: does not work anymore after Firefox 76.0.
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1658775
+
+// Turn off media keys (pause/play).
+user_pref("media.hardwaremediakeys.enabled", false);
+// Rationale: not application-exclusive,
+// so pausing a running music player application
+// will start playing the most recent tab in Firefox,
+// which is annoying.
+// New in Firefox 81.
+// https://support.mozilla.org/en-US/kb/control-audio-or-video-playback-your-keyboard
+// https://www.mozilla.org/en-US/firefox/81.0/releasenotes/
+// https://support.mozilla.org/en-US/questions/1305598
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1615665
+// https://techdows.com/2020/09/how-to-disable-firefox-media-control.html
