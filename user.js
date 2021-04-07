@@ -118,3 +118,15 @@ user_pref("media.hardwaremediakeys.enabled", false);
 // https://support.mozilla.org/en-US/questions/1305598
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1615665
 // https://techdows.com/2020/09/how-to-disable-firefox-media-control.html
+
+// Disable geolocation.
+user_pref("geo.enabled", false);
+// Rationale: not accurate on desktop, easier to enter a ZIP code anyway.
+// https://www.ghacks.net/2009/06/19/disable-location-aware-browsing-geolocation-in-firefox/
+// https://bugzilla.mozilla.org/show_bug.cgi?id=994093
+// https://bugzilla.mozilla.org/show_bug.cgi?id=491653
+
+// Turn off battery status.
+user_pref("dom.battery.enabled", false);
+// Rationale: not useful on laptop or desktop.
+// https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
