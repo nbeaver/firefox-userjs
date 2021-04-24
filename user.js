@@ -130,3 +130,7 @@ user_pref("geo.enabled", false);
 user_pref("dom.battery.enabled", false);
 // Rationale: not useful on laptop or desktop.
 // https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
+
+// Don't enable caret browsing with F7
+user_pref("accessibility.browsewithcaret_shortcut.enabled", false);
+// Rationale: I don't use caret browsing and it's easy to mistype.
