@@ -134,3 +134,17 @@ user_pref("dom.battery.enabled", false);
 // Don't enable caret browsing with F7
 user_pref("accessibility.browsewithcaret_shortcut.enabled", false);
 // Rationale: I don't use caret browsing and it's easy to mistype.
+
+// Disable service workers.
+user_pref("dom.serviceWorkers.enabled", false);
+// Rationale: I don't need offline web apps or notifications,
+// and the extra memory consumption and potential for misuse is too great.
+// https://mszinzow.blogspot.com/2019/12/BrowserBloat.html
+// "They bite. The generic idea may even be reasonable (offline working web
+// app), but every single time I encounter service workers they make things
+// worse."
+// https://news.ycombinator.com/item?id=17857213
+// https://github.com/MrAlex94/Waterfox/issues/545
+// https://old.reddit.com/r/firefox/comments/7dq2h7/is_there_any_reason_not_to_disable_service_workers/
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1665368
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1266415
