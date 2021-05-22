@@ -148,3 +148,12 @@ user_pref("dom.serviceWorkers.enabled", false);
 // https://old.reddit.com/r/firefox/comments/7dq2h7/is_there_any_reason_not_to_disable_service_workers/
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1665368
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1266415
+
+// Enable "View Image Info" in right-click menu.
+user_pref("browser.menu.showViewImageInfo", true);
+// Rationale: I want to be able to right-click on an image and look at the info.
+// This was removed in version 87.0 and 88.0 and.
+// This preference only works for Firefox version 89 and later.
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1690029
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1692552
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1702013
