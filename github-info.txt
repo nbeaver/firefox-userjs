@@ -1,0 +1,2 @@
+repository name: firefox-userjs
+description: my user.js customization file for Firefox
