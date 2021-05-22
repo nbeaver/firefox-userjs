@@ -2,7 +2,7 @@
 user_pref("accessibility.typeaheadfind.enablesound", false);
 // Rationale: the beep is annoying.
 // http://kb.mozillazine.org/Accessibility.typeaheadfind.enablesound
-//
+
 // Turn off annoying flashing when using typeahead.
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 // Rationale: the flash is annoying.
