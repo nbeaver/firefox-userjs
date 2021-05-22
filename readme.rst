@@ -1,4 +1,4 @@
-This is my user.js for Firefox.
+This is my `<./user.js>`_ for Firefox.
 It includes rationales for each setting.
 
 Notes on ``user.js``:
