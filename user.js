@@ -157,3 +157,7 @@ user_pref("browser.menu.showViewImageInfo", true);
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1690029
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1692552
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1702013
+
+user_pref("layout.css.visited_links_enabled", false);
+// Rationale: prevent sites from inspecting user history.
+// https://dbaron.org/mozilla/visited-privacy
