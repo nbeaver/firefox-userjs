@@ -161,3 +161,8 @@ user_pref("browser.menu.showViewImageInfo", true);
 user_pref("layout.css.visited_links_enabled", false);
 // Rationale: prevent sites from inspecting user history.
 // https://dbaron.org/mozilla/visited-privacy
+
+user_pref("browser.ui.zoom.force-user-scalable", true);
+// Rationale: allowing zoom is more accessible
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1116048
+// https://www.matuzo.at/blog/2022/please-stop-disabling-zoom/
