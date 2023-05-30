@@ -166,3 +166,12 @@ user_pref("browser.ui.zoom.force-user-scalable", true);
 // Rationale: allowing zoom is more accessible
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1116048
 // https://www.matuzo.at/blog/2022/please-stop-disabling-zoom/
+
+// Disable web notifications.
+user_pref("dom.webnotifications.enabled", false);
+user_pref("dom.webnotifications.enabled", false);
+user_pref("dom.webnotifications.serviceworker.enabled", false);
+user_pref("dom.pushconnection.enabled", false);
+user_pref("dom.push.enabled", false);
+// Rationale: annoying, can steal focus from other tabs.
+// https://superuser.com/questions/1300131/how-to-completely-disable-push-notifications-in-firefox
