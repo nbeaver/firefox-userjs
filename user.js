@@ -152,7 +152,7 @@ user_pref("dom.serviceWorkers.enabled", false);
 // Enable "View Image Info" in right-click menu.
 user_pref("browser.menu.showViewImageInfo", true);
 // Rationale: I want to be able to right-click on an image and look at the info.
-// This was removed in version 87.0 and 88.0 and.
+// This was removed in version 87.0 and 88.0.
 // This preference only works for Firefox version 89 and later.
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1690029
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1692552
