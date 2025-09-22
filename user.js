@@ -192,3 +192,13 @@ user_pref("browser.ml.linkPreview.enabled", false);
 user_pref("browser.ml.enable", false);
 // Rationale: better performance.
 // https://firefox-source-docs.mozilla.org/toolkit/components/ml/extensions.html
+
+// Disable passkeys, including Windows Hello.
+user_pref("security.webauthn.webauthn", false);
+user_pref("security.webauthn.enable_macos_passkeys", false);
+// Rationale: vendor lockin still a serious issue for the foreseeable future.
+// https://danfabulich.medium.com/passkeys-are-just-passwords-that-require-a-password-manager-ebb7f2fdcadf
+// https://fy.blackhats.net.au/blog/2024-04-26-passkeys-a-shattered-dream/
+// https://lapcatsoftware.com/articles/2023/5/1.html
+// https://lucumr.pocoo.org/2025/9/2/passkeys/
+// https://michal.sapka.pl/2023/passkeys/
