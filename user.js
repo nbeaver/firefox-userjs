@@ -175,3 +175,20 @@ user_pref("dom.pushconnection.enabled", false);
 user_pref("dom.push.enabled", false);
 // Rationale: annoying, can steal focus from other tabs.
 // https://superuser.com/questions/1300131/how-to-completely-disable-push-notifications-in-firefox
+
+// Disable AI chat sidebar.
+user_pref("browser.ml.chat.enabled", false);
+user_pref("browser.ml.chat.menu", false);
+user_pref("browser.ml.chat.shortcuts", false);
+user_pref("browser.ml.chat.sidebar", false);
+// Rationale: I don't want it or use it.
+// https://support.mozilla.org/en-US/kb/ai-chatbot
+// https://support.mozilla.org/bm/questions/1497223
+
+// Disable AI link preview.
+user_pref("browser.ml.linkPreview.enabled", false);
+
+// Disable machine learning features.
+user_pref("browser.ml.enable", false);
+// Rationale: better performance.
+// https://firefox-source-docs.mozilla.org/toolkit/components/ml/extensions.html
