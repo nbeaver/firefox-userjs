@@ -202,3 +202,10 @@ user_pref("security.webauthn.enable_macos_passkeys", false);
 // https://lapcatsoftware.com/articles/2023/5/1.html
 // https://lucumr.pocoo.org/2025/9/2/passkeys/
 // https://michal.sapka.pl/2023/passkeys/
+
+// Disable "Add tab to taskbar" feature.
+user_pref("browser.taskbarTabs.enabled", false)
+// Rationale: I don't use this, and it's intrusive and takes up address bar space.
+// https://www.askvg.com/enable-or-disable-pwa-support-and-add-tab-to-taskbar-button-in-firefox/
+// https://connect.mozilla.org/t5/firefox-labs/disable-add-tab-to-taskbar-via-address-bar-143-0/td-p/105542
+// https://www.reddit.com/r/firefox/comments/1ndx7q0/how_do_i_get_rid_of_the_add_to_taskbar_icon/
