@@ -192,6 +192,7 @@ user_pref("browser.ml.linkPreview.enabled", false);
 user_pref("browser.ml.enable", false);
 // Rationale: better performance.
 // https://firefox-source-docs.mozilla.org/toolkit/components/ml/extensions.html
+// https://flamedfury.com/posts/disable-ai-in-firefox/
 
 // Disable passkeys, including Windows Hello.
 user_pref("security.webauthn.webauthn", false);
