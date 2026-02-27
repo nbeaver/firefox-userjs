@@ -205,8 +205,16 @@ user_pref("security.webauthn.enable_macos_passkeys", false);
 // https://michal.sapka.pl/2023/passkeys/
 
 // Disable "Add tab to taskbar" feature.
-user_pref("browser.taskbarTabs.enabled", false)
+user_pref("browser.taskbarTabs.enabled", false);
 // Rationale: I don't use this, and it's intrusive and takes up address bar space.
 // https://www.askvg.com/enable-or-disable-pwa-support-and-add-tab-to-taskbar-button-in-firefox/
 // https://connect.mozilla.org/t5/firefox-labs/disable-add-tab-to-taskbar-via-address-bar-143-0/td-p/105542
 // https://www.reddit.com/r/firefox/comments/1ndx7q0/how_do_i_get_rid_of_the_add_to_taskbar_icon/
+
+// Always show scrollbars.
+user_pref("layout.testing.overlay-scrollbars.always-visible", true);
+// Rationale: I want to see where I am in the document.
+// https://connect.mozilla.org/t5/discussions/scrollbars-disappear-in-firefox-100/m-p/6358
+// https://news.ycombinator.com/item?id=36967784
+// https://superuser.com/questions/1720362/firefox-scroll-bar-disappearing
+// https://tildes.net/~comp/1nu3/firefox_tweaks_arch_linux_wiki
