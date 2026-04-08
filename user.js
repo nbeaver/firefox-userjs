@@ -218,3 +218,7 @@ user_pref("layout.testing.overlay-scrollbars.always-visible", true);
 // https://news.ycombinator.com/item?id=36967784
 // https://superuser.com/questions/1720362/firefox-scroll-bar-disappearing
 // https://tildes.net/~comp/1nu3/firefox_tweaks_arch_linux_wiki
+
+// Don't require addon signing.
+user_pref("xpinstall.signatures.required", false);
+// Rationale: sometimes I want to install my own addons without going through the Mozilla store.
