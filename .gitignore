@@ -1,3 +1,4 @@
 # Ignore desktop files.
 *.desktop
 readme.html
+node_modules/
