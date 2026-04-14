@@ -17,3 +17,14 @@ user_pref("network.cookie.lifetimePolicy", 2);
 // Rationale for removal:
 // Need to close and re-open with the -no-remote flag sometimes,
 // and it's annoying to login to everything again.
+
+// Disable geolocation.
+// user_pref("geo.enabled", false);
+// Rationale: not accurate on desktop, easier to enter a ZIP code anyway.
+// https://www.ghacks.net/2009/06/19/disable-location-aware-browsing-geolocation-in-firefox/
+// https://bugzilla.mozilla.org/show_bug.cgi?id=994093
+// https://bugzilla.mozilla.org/show_bug.cgi?id=491653
+//
+// Rational for removal:
+// Breaks order.online, doordash.com, and dominos.com
+
