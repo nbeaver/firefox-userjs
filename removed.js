@@ -19,7 +19,7 @@ user_pref("network.cookie.lifetimePolicy", 2);
 // and it's annoying to login to everything again.
 
 // Disable geolocation.
-// user_pref("geo.enabled", false);
+user_pref("geo.enabled", false);
 // Rationale: not accurate on desktop, easier to enter a ZIP code anyway.
 // https://www.ghacks.net/2009/06/19/disable-location-aware-browsing-geolocation-in-firefox/
 // https://bugzilla.mozilla.org/show_bug.cgi?id=994093
@@ -28,3 +28,15 @@ user_pref("network.cookie.lifetimePolicy", 2);
 // Rational for removal:
 // Breaks order.online, doordash.com, and dominos.com
 
+// Disable visited link styling
+user_pref("layout.css.visited_links_enabled", false);
+// Rationale: prevent sites from inspecting user history.
+// https://dbaron.org/mozilla/visited-privacy
+//
+// Rationale for removal:
+// Mozilla's mitigations are probably good enough.
+// https://blog.mozilla.org/security/2010/03/31/plugging-the-css-history-leak/
+// https://blog.mozilla.org/security/2010/03/31/plugging-the-css-history-leak/
+// https://bugzilla.mozilla.org/show_bug.cgi?id=147777
+// https://bugzilla.mozilla.org/show_bug.cgi?id=693164
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1477773
