@@ -13,6 +13,10 @@ npm-install:
 	npm clean-install
 	# npm install eslint globals
 
+.PHONY: outdated-npm
+outdated-npm:
+	npm outdated
+
 readme.html : readme.rst
 	rst2html $< $@
 
