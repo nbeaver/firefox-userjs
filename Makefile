@@ -10,7 +10,7 @@ lint :
 
 .PHONY: npm-install
 npm-install:
-	npm ci
+	npm clean-install
 	# npm install eslint globals
 
 readme.html : readme.rst
